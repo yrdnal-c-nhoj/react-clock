@@ -2407,10 +2407,11 @@ __metadata:
   resolution: "react-clock-monorepo@workspace:."
   dependencies:
     husky: "npm:^9.0.0"
+    react-clock: "workspace:^"
   languageName: unknown
   linkType: soft
 
-"react-clock@workspace:packages/react-clock":
+"react-clock@workspace:^, react-clock@workspace:packages/react-clock":
   version: 0.0.0-use.local
   resolution: "react-clock@workspace:packages/react-clock"
   dependencies:
